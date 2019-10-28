@@ -43,7 +43,7 @@ group :development do
   # Guard  Only On Development Group
   gem 'guard', '~> 2.15', '>= 2.15.1'
   # Live reload your browser
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do

@@ -59,13 +59,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # My Own Gems
-
-# Best looking errors
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
-
 # Bulma CSS Framework
-gem 'bulma-rails', '~> 0.7.5' 
+gem 'bulma-rails', '~> 0.7.5'
 
 # Simple Form
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
+# Better Errors Looking
+gem 'better_errors', '~> 2.5', '>= 2.5.1'

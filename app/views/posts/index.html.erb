@@ -14,7 +14,7 @@
 						<%= post.content %>
 					</div>
 					<div class="coment-count">
-						<span class="tag is-rounded"></span>
+						<span class="tag is-rounded"><strong><%= pluralize(post.comments.count, 'Comment') %> </strong></span>
 					</div>
 				</div>
 			</div>
